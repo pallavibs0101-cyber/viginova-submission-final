@@ -1,0 +1,13 @@
+name: viginova-env
+version: 1.0
+description: Emergency response simulation environment
+
+entrypoint: app:app
+
+tasks:
+  - name: easy
+    description: basic emergency classification
+  - name: medium
+    description: moderate emergency classification
+  - name: hard
+    description: complex emergency classification
